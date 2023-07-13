@@ -24,7 +24,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='logger',
-    version='0.0.2',
+    version='0.0.3',
     author='Michele Tirico',
    # author_mail="tirico.michele@outlook.com",
     description='glogger',
@@ -35,6 +35,6 @@ setuptools.setup(
     #     "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
     # },
     license='MIT',
-    packages=['src/logger'],
+    packages=['logger'],
     install_requires=['requests'],
 )
