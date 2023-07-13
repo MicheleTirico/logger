@@ -24,16 +24,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='logger',
-    version='0.0.3',
+    version='0.0.4',
     author='Michele Tirico',
    # author_mail="tirico.michele@outlook.com",
     description='glogger',
     long_description=long_description,
     long_description_content_type="text/markdown",
     url='https://github.com/MicheleTirico/logger',
-    # project_urls = {
-    #     "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
-    # },
+    project_urls = {
+        "Bug Tracker": "https://github.com/MicheleTirico/logger/issues"
+    },
     license='MIT',
     packages=['logger'],
     install_requires=['requests'],
