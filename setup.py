@@ -26,7 +26,7 @@ setuptools.setup(
     name='logger',
     version='0.0.1',
     author='Michele Tirico',
-    author_mail="tirico.michele@outlook.com",
+   # author_mail="tirico.michele@outlook.com",
     description='glogger',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -35,6 +35,6 @@ setuptools.setup(
     #     "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
     # },
     license='MIT',
-    packages=['logger'],
+    packages=['src/logger'],
     install_requires=['requests'],
 )
