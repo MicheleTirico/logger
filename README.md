@@ -3,6 +3,6 @@
 Install the sources:
 
 ````bash
-python -m pip install -e .
+python -m pip install -e . --channel conda-forge
 ````
 
